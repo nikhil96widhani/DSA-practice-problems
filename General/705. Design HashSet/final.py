@@ -21,10 +21,9 @@ class MyHashSet(object):
         :rtype: None
         """
         contains = self.findIndex(key)
-        if not contains:
+        if contains is None:
             self.hashset.append(key)
-        else:
-            return None
+        return None
 
     def remove(self, key):
         """
@@ -32,10 +31,9 @@ class MyHashSet(object):
         :rtype: None
         """
         contains = self.findIndex(key)
-        if contains:
+        if contains is not None:
             self.hashset.pop(contains)
-        else:
-            return None
+        return None
 
     def contains(self, key):
         """
@@ -49,8 +47,6 @@ class MyHashSet(object):
             return False
 
 
-
-
 if __name__ == '__main__':
     # Your MyHashSet object will be instantiated and called as such:
     obj = MyHashSet()
@@ -61,3 +57,4 @@ if __name__ == '__main__':
     b = obj.contains(2)
     obj.remove(2)
     c = obj.contains(2)
+
