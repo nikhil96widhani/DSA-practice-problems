@@ -34,21 +34,21 @@ class Solution(object):
         :type n: int
         :rtype: None Do not return anything, modify nums1 in-place instead.
         """
-        lastinsert_index = None
+        lastinsert_index = 0
         while len(nums2[0:n]) > 0:
-            for i, val in enumerate(nums1):
-                if lastinsert_index is None or i > lastinsert_index :
-                    if val >= nums2[0]:
-                        nums1.insert(i, nums2[0])
-                        nums2.pop(0)
-                        nums1.pop(-1)
-                        lastinsert_index = i+1
-                        break
-                    elif i == m + n - len(nums2):
-                        nums1.insert(i, nums2[0])
-                        nums2.pop(0)
-                        nums1.pop(-1)
-                        break
+            for i in range(lastinsert_index, len(nums1)):
+                if nums1[i] >= nums2[0]:
+                    nums1.insert(i, nums2[0])
+                    nums2.pop(0)
+                    nums1.pop(-1)
+                    lastinsert_index = i+1
+                    break
+                elif i == m + n - len(nums2):
+                    nums1.insert(i, nums2[0])
+                    nums2.pop(0)
+                    nums1.pop(-1)
+                    lastinsert_index = i + 1
+                    break
 
         return nums1
 
