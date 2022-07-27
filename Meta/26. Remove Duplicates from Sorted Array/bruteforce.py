@@ -4,7 +4,14 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-# cooding now
+        pointer = 0
+        while pointer+1 < len(nums):
+            if nums[pointer] == nums[pointer + 1]:
+                nums.pop(pointer + 1)
+            else:
+                pointer += 1
+
+        return len(nums)
 
 
 if __name__ == '__main__':
