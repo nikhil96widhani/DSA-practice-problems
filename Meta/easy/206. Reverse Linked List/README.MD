@@ -2,7 +2,7 @@ Given the `head` of a singly linked list, reverse the list, and return *the r
 
 Example 1:
 
-![](../../assets/rev1ex1.jpg)
+![](../../../assets/rev1ex1.jpg)
 
 ```
 Input: head = [1,2,3,4,5]
@@ -11,7 +11,7 @@ Output: [5,4,3,2,1]
 
 Example 2:
 
-![](../../assets/rev1ex2.jpg)
+![](../../../assets/rev1ex2.jpg)
 
 ```
 Input: head = [1,2]
