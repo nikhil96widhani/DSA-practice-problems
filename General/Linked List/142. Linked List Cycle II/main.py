@@ -13,7 +13,7 @@ class Solution(object):
             slow = slow.next
             if fast == slow:
                 slow = head
-                while (slow is not fast):
+                while slow is not fast:
                     fast = fast.next
                     slow = slow.next
                 return slow
