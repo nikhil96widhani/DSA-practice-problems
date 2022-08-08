@@ -1,20 +1,25 @@
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
 class Solution(object):
-    def detectCycle(self, head):
+    def hasCycle(self, head):
         """
         :type head: ListNode
-        :rtype: ListNode
+        :rtype: bool
+
         Notes: Using floyds tortoise and Hare algorithm
-        Assuming fast will loop back to a position which will be equal to slow sometime in the loop,
-        when cycle is found means both are at same point, then check every next to find the match node
+        Assuming fast will loop back to a position which will be equal to slow sometime in the loop
         """
         fast, slow = head, head
-        while fast and fast.next and fast.next.next:
-            fast = fast.next.next
+
+        while fast and fast.next:
             slow = slow.next
-            if fast == slow:
-                slow = head
-                while (slow is not fast):
-                    fast = fast.next
-                    slow = slow.next
-                return slow
-        return None
+            fast = fast.next.next
+
+            if slow == fast:
+                return True
+
+        return False
