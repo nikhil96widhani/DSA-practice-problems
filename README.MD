@@ -2,10 +2,14 @@
 Practice questions Data Structures and Algorithms
 
 
-| #   | Topic       | Level  | Question W Solution                                                                                          | Company |
-|-----|-------------|--------|--------------------------------------------------------------------------------------------------------------|---------|
-| 1   | Linked List | easy   | [876. Middle of the Linked List](General/Linked%20List/876.%20Middle%20of%20the%20Linked%20List)             |         |
-| 2   | Linked List | easy   | [237. Delete Node in a Linked List](General%2FLinked%20List%2F237.%20Delete%20Node%20in%20a%20Linked%20List) |         |
-| 3   | Linked List | easy   | [21. Merge Two Sorted Lists](General%2FLinked%20List%2F21.%20Merge%20Two%20Sorted%20Lists)                   |         |
-| 4   | Linked List | easy   | [141. Linked List Cycle](General%2FLinked%20List%2F141.%20Linked%20List%20Cycle)                             |         |
-| 5   | Linked List | medium | [142. Linked List Cycle II](General%2FLinked%20List%2F142.%20Linked%20List%20Cycle%20II)                     |         |
+| #   | Topic       | Level  | Question W Solution                                                                                           | Company |
+|-----|-------------|--------|---------------------------------------------------------------------------------------------------------------|---------|
+| 1   | Linked List | easy   | [876. Middle of the Linked List](General/Linked%20List/876.%20Middle%20of%20the%20Linked%20List)              |         |
+| 2   | Linked List | easy   | [237. Delete Node in a Linked List](General%2FLinked%20List%2F237.%20Delete%20Node%20in%20a%20Linked%20List)  |         |
+| 3   | Linked List | easy   | [21. Merge Two Sorted Lists](General%2FLinked%20List%2F21.%20Merge%20Two%20Sorted%20Lists)                    |         |
+| 4   | Linked List | easy   | [141. Linked List Cycle](General%2FLinked%20List%2F141.%20Linked%20List%20Cycle)                              |         |
+| 5   | Linked List | medium | [142. Linked List Cycle II](General%2FLinked%20List%2F142.%20Linked%20List%20Cycle%20II)                      |         |
+| 6   | Greedy      | easy   | [121. Best Time to Buy and Sell Stock](General%2FGreedy%2F121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock) |         |
+| 7   | Greedy      | easy   | [169. Majority Element](General%2FGreedy%2F169.%20Majority%20Element)                                         |         |
+| 8   | Greedy      | easy   | [628. Maximum Product of Three Numbers](General%2FGreedy%2F628.%20Maximum%20Product%20of%20Three%20Numbers)   |         |
+| 9   | Greedy      | easy   | [Assign Mice to Holes](General%2FGreedy%2FAssign%20Mice%20to%20Holes)                                                                                                          |         |
